@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <div id="map"></div>
+    <div id="menu">
+        <div>
+            <img class="logogreeneat" src="assets/img/greeneatlogo.png" alt="Logo">
+        </div>
+        <div class="allfilters">
+            <ul class= "containerfilter">
+                <li class="handleFilter" id="Abasto"><img class="imgiconos" src="assets/img/iconofruta1.png" width="40">Abasto</li>
+                <li class="handleFilter" id="Caballito"><img class="imgiconos" src="assets/img/iconofruta2.png" width="40">Caballito</li>
+            </ul>
+            <ul class= "containerfilter">
+                <li class="handleFilter" id="Billinghurst"><img src="assets/img/iconofruta3.png" width="40">Billinghurst</li>
+                <li class="handleFilter" id="Cabildo"><img src="assets/img/iconofruta4.png" width="40">Cabildo</li>
+            </ul>
+            <ul class= "containerfilter">
+                <li class="handleFilter" id="Corrientes"><img src="assets/img/iconofruta5.png" width="40">Corrientes</li>
+                <li class="handleFilter" id="Florida"><img src="assets/img/iconofruta6.png" width="40">Florida</li>
+            </ul>
+            <ul class= "containerfilter">
+                <li class="handleFilter" id="Pueyrredon"><img src="assets/img/iconofruta7.png" width="40">Pueyrredon</li>
+                <li class="handleFilterReset"><img src="assets/img/iconofruta8.png" width="40">RESETEAR</li>
+            </ul>
+            <br>
+            <ul class= "containerfilter">
+                <div>
+                    <a class="buttonagregarlocal" href="admin.html">Agregar local</a>
+                </div>
+             </ul>
+        </div>
+        
+    </div>
+    
+    <script src="assets/js/mapStyles.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeWXseIVXxPlvpniACQWgThEdPBQE1wR8&callback=initMap"></script>
+    
+</body>
+</html>
+

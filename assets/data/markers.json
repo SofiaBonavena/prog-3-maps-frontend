@@ -1,0 +1,59 @@
+[
+    {
+      
+      "nombre": "Av. Corrientes 3247, CABA",
+      "descripcion": "Planta Baja, Plaza del Zorzal",
+      "lat": -34.6011801671593,
+      "lng":  -58.410904333920236,
+      "type": "Abasto"
+    },
+    {
+      
+      "nombre": "Av. Santa Fe 3129, CABA.",
+      "descripcion": "Casi esq. Billinghurst",
+      "lat": -34.58733788493678, 
+      "lng": -58.40875771717872,
+      "type": "Billinghurst"
+    },
+    {
+    
+      "nombre": "Av. Rivadavia 4668, CABA.",
+      "descripcion": "Esquina El Maestro",
+      "lat": -34.61334277342905, 
+      "lng": -58.431462532507936,
+      "type": "Caballito"
+    },
+    {
+      
+      "nombre": "Av. Cabildo 1721, CABA.",
+      "descripcion": "Casi esq. José Hernández",
+      "lat": -34.56103707927647, 
+      "lng": -58.45231978643883,
+      "type": "Cabildo"
+    },
+    {
+     
+      "nombre": "Florida 428, CABA.",
+      "descripcion": "Casi esq. Avenida Corrientes",
+      "lat": -34.60061149658415,
+      "lng":  -58.37534942036693,
+      "type": "Corrientes"
+    },
+    {
+   
+      "nombre": "Santa Fe 2461, CABA.",
+      "descripcion": "Casi esq. Pueyrredón",
+      "lat": -34.594607087021366, 
+      "lng":  -58.40182879972856,
+      "type": "Pueyrredon"
+    },
+    {
+     
+      "nombre": "Florida 102, CABA.",
+      "descripcion": "esq. Diagonal Norte",
+      "lat": -34.594607087021366, 
+      "lng":  -58.40182879972856,
+      "type": "Florida"
+    }
+    
+  ]

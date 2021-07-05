@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrega un local</title>
+    <link rel="stylesheet" href="assets/css/adminstyles.css">
+</head>
+
+<body>
+    <section id="formulario">
+        <div class="main">
+            <div class="logo">
+                <img class="logogreeneat" src="assets/img/greeneatlogoblanco.png" alt="Logo" width="30%">
+            </div>
+            <hr size=2 noshade>
+            <h2>AGREGAR LOCAL</h2>
+            
+            <div class="container form_wrapper form_create">
+                <form id="form1" action="https://prog-3-mapa-backend-nu.vercel.app/markers" method="POST">
+                        <label> Nombre</label><br>
+                        <input type="text" name="nombre">
+
+                        <div id="form2">
+                            <label> Descripcion</label><br>
+                            <input type="text" name="descripcion">
+                        </div>
+                        
+                        <div id="form3">
+                            <label> Type</label><br>
+                            <select id="type" name="type">
+                                <option value="elegir" selected hidden> Abasto</option>>
+                                <option value="elegir"> Billinghurst</option>>
+                                <option value="elegir"> Caballito</option>>
+                                <option value="elegir"> Cabildo</option>>
+                                <option value="elegir"> Corrientes</option>>
+                                <option value="elegir"> Pueyrredon</option>>
+                                <option value="elegir"> Florida</option>>
+                            </select>
+                        </div>
+
+                        <div class="divlatlon">
+                            <div id="form4">
+                                <label> Latitud </label><br>
+                                <input type="text" name="lat" id="lat" />
+                            </div>
+                            <div id="form4">
+                                <label> Longitud </label><br>
+                                <input type="text" name="lng" id="lng" />
+                            </div>
+                        </div>
+                        <div class="divsubmit">
+                            <input type="submit" class="submit" value="Crear">
+                        </div>
+                </form>
+                <p class="respuesta_form"></p>
+            </div>
+
+            <h2>EDITAR LOCAL</h2>
+            <div class="container form_wrapper form_edit">
+                <form id="form1" action="https://prog-3-mapa-backend-nu.vercel.app/markers" method="POST">
+                        <label> Nombre</label><br>
+                        <input type="text" name="nombre">
+
+                        <div id="form2">
+                            <label> Descripcion</label><br>
+                            <input type="text" name="descripcion">
+                        </div>
+                        
+                        <div id="form3">
+                            <label> Type</label><br>
+                            <select id="type" name="type">
+                                <option value="elegir" selected hidden> Abasto</option>>
+                                <option value="elegir"> Billinghurst</option>>
+                                <option value="elegir"> Caballito</option>>
+                                <option value="elegir"> Cabildo</option>>
+                                <option value="elegir"> Corrientes</option>>
+                                <option value="elegir"> Pueyrredon</option>>
+                                <option value="elegir"> Florida</option>>
+                            </select>
+                        </div>
+
+                        <div class="divlatlon">
+                            <div id="form4">
+                                <label> Latitud </label><br>
+                                <input type="text" name="lat" id="lat" />
+                            </div>
+                            <div id="form4">
+                                <label> Longitud </label><br>
+                                <input type="text" name="lng" id="lng" />
+                            </div>
+                        </div>
+
+                        <div id="form2">
+                            <input type="hidden" placeholder="type" name="descripcion">
+                        </div>
+
+                        <div class="divsubmit">
+                            <input type="submit" class="submit" name="submit" value="Editar">
+                        </div>
+                </form>
+                <p class="respuesta_form"></p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="listado">
+        <hr size=2 noshade>
+            <h2>Locales existentes</h2>
+        <div class="container">
+            <div id="list_header"></div>
+            <div id="list"></div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+        integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+        crossorigin="anonymous">
+    </script>
+    
+    <script src="../backend/routes/markers.js"></script>
+    <script src="assets/js/admin.js"></script>
+</body>
+
+</html>

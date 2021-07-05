@@ -1,0 +1,192 @@
+body {
+  margin:40px;
+  background-color: #E98901;
+}
+* {
+  box-sizing: border-box;
+}
+input {
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:10px;
+}
+
+.type-2 {
+    background-color: #fafafa;
+    border:0;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+  }
+  .type-2:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+  }
+
+  select {
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    color: #E98901;
+    font-family: poppins;
+    font-size: 15px;
+  }
+  
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 50%;
+  border-color: #ffff;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: poppins;
+  font-weight: 500;
+  color: white;
+  margin-top: 40px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 300;
+  color: white;
+
+}
+
+input {
+  text-decoration: none;
+}
+
+input.submit {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #47b063;
+  font-family: poppins;
+  font-weight: 500;
+  color: white;
+  
+}
+
+.divlatlon {
+  display: flex;
+}
+
+.error {
+  color: red;
+}
+
+#form4 {
+  width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.collapsible {
+  color:#ffffff;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #47b063;
+  border-style: none;
+  margin-top: 1%;
+  margin-left: 2%;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #47b063;
+  color:#ffffff;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#listado {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content div {
+  width: 50%; 
+  margin: 0 auto}
+
+.content div, .content p {
+  margin-top: 1%; 
+  margin-bottom: 1%;
+}
+
+.content h3 {
+  font-style: italic;
+}
+
+.contenedor {
+  display: flex; 
+  margin: 2%;
+}
+
+.cont_collapsible {
+  width: 80%;
+  background-color: #47b063;
+}
+.buttons {
+  display: flex; 
+  margin: 0px; 
+  align-items: baseline!important;
+  background-color: #47b063;
+  
+}
+
+.buttons button {
+  margin: 1em 1em 0 auto; 
+  background-color:#47b063;
+  color: white; 
+  cursor: pointer; 
+  margin: 0px;
+  padding: 0.5em; 
+  border: none; 
+  text-align:left;
+  outline: none; 
+  font-size: 20px; 
+  text-decoration: none;
+  font-family: poppins;
+  font-weight: 500;
+  
+}
+
+.content{
+font-family: poppins;
+font-size: 20px;
+color: white;
+display: none;
+padding: 0 18px; 
+overflow: hidden; 
+
+}
+
+.content li {
+  font-weight: 250;
+}
+
+.titulomarkers {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  
+
+}

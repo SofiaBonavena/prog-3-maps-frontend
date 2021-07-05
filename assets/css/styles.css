@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    font-family: poppins;
+}
+
+h3 {
+    font-family: poppins;
+}
+
+p {
+    font-family: poppins;
+}
+
+
+.gm-style .gm-style-iw-d {
+    color:#47b063;
+}
+
+.gm-style .gm-style-iw-c {
+    color:#47b063;
+}
+
+#menu {
+    position: absolute;
+    top:0;left: 0;
+    z-index: 1000;
+    width: 20%; 
+    height: 100%;
+    background-color: #F9F9F7;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.7);
+}
+
+.logogreeneat {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 10%;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: poppins;
+    font-weight:500;
+    color: #E98901;
+    
+}
+
+.allfilters {
+    width: 100%;
+}
+
+.containerfilter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.handleFilter {
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.handleFilterReset {
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.imgiconos {
+    justify-content: end;
+}
+
+.buttonagregarlocal {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #47b063;
+  font-family: poppins;
+  font-weight: 500;
+  color: white;
+  border-style: none;
+  padding: 10px;
+}
